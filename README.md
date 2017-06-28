@@ -1,70 +1,48 @@
-# Learn Git Training
+<snippet>
+  <content><![CDATA[
+# ${1:Daryl Jason Lazaro's WDI 39 Portfolio}
 
-1. Create a fork of the [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
+This repository contains the projects programmed and developed by Daryl Jason Lazaro over the course of WDI 39 at General Assembly, San Francisco. The course runs from June 26 to September 20, 2017, and will include a personal profile page, individual projects, and group projects. This repository will potentially be used by the owner as a professional portfolio during the job search after completion of the WDI.
 
-  ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
+<!-- insert screenshot of the webpage -->
 
-2. You'll see a screen like the one below while GitHub is forking the repo. Forking creates a copy of the original repo on your own GitHub account. The forked repo is still online only and not on your computer.
+## Access
 
-  ![forking](https://cloud.githubusercontent.com/assets/6520345/17570801/c0d27e36-5f02-11e6-8d44-f485301831ed.png)
+If you would like to access Daryl Jason Lazaro's webpage and portfolio, you may visit:
 
-3. Now you have your own copy of the repo! In order to make this a live personal website, we're going to take advantage of GitHub's [*GitHub pages*](https://pages.github.com/) feature. All we need to do is change the repository name to `<fill in your GitHub username>.github.io`. Here's how:
-  * Click on the settings tab toward the top of the page: ![settings tab](https://cloud.githubusercontent.com/assets/6520345/17564907/fc20986a-5ee9-11e6-8e7f-abc19c482a7b.png)
-  * Find the repository name section and change it to `<username>.github.io` ![change repo name](https://cloud.githubusercontent.com/assets/6520345/17564950/2a69081a-5eea-11e6-8d17-8017954d8ad7.png)
-  * Click the rename button.
+(../index.html)
 
-4. Go to the website `<username>.github.io`!  You have a web presence now!! It's not perfect, but it will be a work in progress over the whole course and it's an excellent start! If you want to change the content, you're going to need a copy on your own computer to edit and improve.
+You may also wish to clone or download the entirety of the content from this repository to view in Google Chrome (or preferred web browser).
 
-4. Click the clone or download button and copy the "clone URL."
+## Usage
 
-  ![clone button](https://cloud.githubusercontent.com/assets/6520345/17565250/87ec41b8-5eeb-11e6-8fc8-280aa6e14611.png)
+You will use this page to view my personal portfolio, of work that I've created over the course of WDI 39.
 
-  ![clone url](https://cloud.githubusercontent.com/assets/6520345/17565297/bc8e85ca-5eeb-11e6-870d-3029f9f7ed5b.png)
+## Contributing
 
-1. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
-  ```
-  ➜ mkdir ~/wdi
-  ```
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-4. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
+## History
 
-  ```zsh
-  ➜  cd ~/wdi
-  ➜  git clone <clone-url>
-  ```
+6/27/2017: Forked from sf-wdi-LABS, began personalizing index.html and README.md
 
-5. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
+## Credits
 
-  ```zsh
-  ➜  cd <username>.github.io
-  ```
+Repository developed and programmed by Daryl Jason Lazaro with guidance from (https://www.generalassemb.ly "General Assembly").
 
-6. Open this project in Atom.
+## License
 
-  ```zsh
-  atom .
-  ```
+This repository is licensed under the terms of the GPL Open Source license and is available for free.
 
-1. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
-  *
-  <details>
-    <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
-    <p>There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.</p>
-  </details>
-  *  
-  <details>
-    <summary>In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?</summary>
-    <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
-  </details>
-  *
-  <details>
-    <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
-    <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
-  </details>
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
 
-1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
-
-6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+<!-- 6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
   ```zsh
   ➜  git status
@@ -106,4 +84,4 @@ On Friday, we will be having a feedback session on your progress on the personal
 * A "Contact me" section of the page that includes (at least) a way to email you, a link to your GitHub profile, and a link to your LinkedIn profile.
 * Some custom HTML, CSS, JS, and images. Put your own personal flare on the page and add some customizations. These could be really simple changes that add a bit of your aesthetic or they could be larger features like a navbar, a footer, a photo carousel, bootstrap integration, event listeners, or CSS animations. [Google for personal websites](https://www.google.com/search?q=personal+website&espv=2&biw=1280&bih=612&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjx-Krl6bfOAhUUI2MKHaoPDUEQsAQIQA&dpr=2#imgrc=OOkEvdqZczSU-M%3A), find one that you like, and imitate it!
 
-We're really looking forward to seeing what you've built by Friday! Please reach out to your peers or instructors if you need help making progress on this project.
+We're really looking forward to seeing what you've built by Friday! Please reach out to your peers or instructors if you need help making progress on this project. -->
