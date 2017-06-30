@@ -8,7 +8,7 @@ This repository contains the projects programmed and developed by Daryl Jason La
 
 If you would like to access Daryl Jason Lazaro's webpage and portfolio, you may visit:
 
-(https://dalazaro.github.io)
+https://dalazaro.github.io
 
 You may also wish to clone or download the entirety of the content from this repository to view in Google Chrome (or preferred web browser).
 
