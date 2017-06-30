@@ -18,7 +18,7 @@ You will use this page to view my personal portfolio, of work that I've created 
 
 ## Credits
 
-Repository developed and programmed by Daryl Jason Lazaro with guidance from (https://www.generalassemb.ly "General Assembly").
+Repository developed and programmed by Daryl Jason Lazaro with guidance from [General Assembly](https://www.generalassemb.ly).
 
 ## License
 
