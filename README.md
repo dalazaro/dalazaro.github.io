@@ -1,8 +1,8 @@
-#Daryl Jason Lazaro's WDI 39 Portfolio
+# Daryl Jason Lazaro's WDI 39 Portfolio
 
 This repository contains the projects programmed and developed by Daryl Jason Lazaro over the course of WDI 39 at General Assembly, San Francisco. The course runs from June 26 to September 20, 2017, and will include a personal profile page, individual projects, and group projects. This repository will potentially be used by the owner as a professional portfolio during the job search after completion of the WDI.
 
-<!-- insert screenshot of the webpage -->
+![splash page preview](assets/imgs/splash.png "splash-preview")
 
 ## Access
 
@@ -16,18 +16,6 @@ You may also wish to clone or download the entirety of the content from this rep
 
 You will use this page to view my personal portfolio, of work that I've created over the course of WDI 39.
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-6/27/2017: Forked from sf-wdi-LABS, began personalizing index.html and README.md
-
 ## Credits
 
 Repository developed and programmed by Daryl Jason Lazaro with guidance from (https://www.generalassemb.ly "General Assembly").
@@ -35,6 +23,14 @@ Repository developed and programmed by Daryl Jason Lazaro with guidance from (ht
 ## License
 
 This repository is licensed under the terms of the GPL Open Source license and is available for free.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 
 <!-- 6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
