@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Daryl Jason Lazaro's WDI 39 Portfolio}
+#Daryl Jason Lazaro's WDI 39 Portfolio
 
 This repository contains the projects programmed and developed by Daryl Jason Lazaro over the course of WDI 39 at General Assembly, San Francisco. The course runs from June 26 to September 20, 2017, and will include a personal profile page, individual projects, and group projects. This repository will potentially be used by the owner as a professional portfolio during the job search after completion of the WDI.
 
@@ -10,7 +8,7 @@ This repository contains the projects programmed and developed by Daryl Jason La
 
 If you would like to access Daryl Jason Lazaro's webpage and portfolio, you may visit:
 
-(../index.html)
+(https://dalazaro.github.io)
 
 You may also wish to clone or download the entirety of the content from this repository to view in Google Chrome (or preferred web browser).
 
@@ -38,9 +36,6 @@ Repository developed and programmed by Daryl Jason Lazaro with guidance from (ht
 
 This repository is licensed under the terms of the GPL Open Source license and is available for free.
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 
 <!-- 6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 

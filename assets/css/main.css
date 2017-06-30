@@ -13,6 +13,7 @@ header {
   display: inline;
   float: left;
   margin: 0 auto;
+  margin-bottom: 20px;
   padding: 5px 0;
   background-color: #628899;
   clear: both;
@@ -27,26 +28,28 @@ h1 {
   padding: 0 0 0 30px;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
 }
 
 h2 {
   font-family: 'Fredericka the Great', cursive;
   clear: both;
   font-size: 40px;
-  padding-top: 20px;
-  margin: 20px auto;
+  padding: 0;
+  margin: 0 auto;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
 }
 
 h3 {
   font-family: 'Fredericka the Great', cursive;
+  margin: 0;
+  letter-spacing: 0.05em;
 }
 
 nav {
-  padding-left: 60%;
+  padding-left: 58%;
   margin-right: 0;
 }
 
@@ -64,26 +67,39 @@ li {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
+  letter-spacing: 0.1em;
 }
 
-#splash {
+.home__photo {
   width: 60%;
   height: auto;
-  margin: 20px 0 0 0;
+  margin: 0;
   padding: 0 0 0 0;
+  border: 3px solid black;
+}
+
+.photo {
+  width: 60%;
+  height: auto;
+  margin-top: 20px;
   border: 3px solid black;
 }
 
 .text {
   font-size: 18px;
   width: 80%;
+  padding: 20px;
   margin: auto;
+}
+
+p {
+  margin: 5px;
 }
 
 .caption {
   font-size: 13px;
   font-style: italic;
-  margin: 0 0 20px 0;
+  margin: 0;
   padding: 0;
 }
 
