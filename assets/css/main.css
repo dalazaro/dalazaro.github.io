@@ -130,6 +130,10 @@ div.back-to-top {
     padding: 0 20px;
 }
 
+b {
+  font-weight: 700;
+}
+
 a.back-to-top {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -175,5 +179,5 @@ div.ga-link {
 footer.footer-nav {
   margin-top: 50px;
   height: 50px;
-  background-color: #7F7F7F;
+  background-color: #4F4F4F;
 }
