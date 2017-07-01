@@ -1,3 +1,7 @@
+body {
+  letter-spacing: 0.02em;
+}
+
 h1 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -9,8 +13,10 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 500;
-  padding-left: 20px;
+  padding: 0 20px;
+  letter-spacing: 0.1em;
 }
 
 header.front-title {
@@ -51,17 +57,20 @@ div p {
 
 h1.headline {
   text-transform: uppercase;
-  padding: 0;
+  text-align: center;
   height: 30px;
-  margin: auto;
   font-weight: 700;
+  padding: 20px 0;
+  letter-spacing: 0.1em;
 }
 
 a.body-link {
   font-weight: 500;
 }
 
-
+.navbar {
+  margin: 0px;
+}
 
 nav.col-sm-5 {
   padding: 10px;
@@ -72,7 +81,7 @@ nav.col-sm-5 {
 h2.section-title {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   padding: 10px;
 }
@@ -85,14 +94,13 @@ h3 {
 }
 
 div.body-text {
-  text-align: justify;
   font-family: 'Roboto', sans-serif;
 }
 
 ul.navbar-links {
   list-style: none;
-  text-align: right;
-  margin: auto;
+  text-align: center;
+  padding: 20px 0;
 }
 
 p.caption {
@@ -100,6 +108,16 @@ p.caption {
   font-size: 12px;
   font-style: italic;
   text-align: center;
+  margin: 0;
+}
+
+div.quote-source {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  padding: 0;
 }
 
 section {
