@@ -1,151 +1,160 @@
-/* custom styles */
-body {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  margin: 0 auto;
-  background-color: #EFD7BF;
-  /*background-image: url(assets/imgs/grass.jpg);*/
-  /*background-size: cover;*/
+h1 a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  height: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+header.front-title {
+  margin: 10px auto;
+}
+
+main.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.col-xs-6 {
+  padding: 10px;
+}
+
+div.col-md-6 {
+  padding: 10px;
+}
+
+div.col-sm-6 {
+  padding: 10px;
+}
+
+div.col-sm-7 {
+  padding: 10px;
+}
+
+div.col-sm-4 {
+  padding: 10px;
 }
 
 header {
-  border-bottom: 3px solid black;
-  display: inline;
-  float: left;
-  margin: 0 auto;
+}
+
+div p {
   margin-bottom: 20px;
-  padding: 5px 0;
-  background-color: #628899;
-  clear: both;
-  width: 100%;
 }
 
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-  float: left;
-  font-size: 40px;
-  margin: auto;
-  padding: 0 0 0 30px;
-  font-weight: 900;
+h1.headline {
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
-
-h2 {
-  font-family: 'Fredericka the Great', cursive;
-  clear: both;
-  font-size: 40px;
   padding: 0;
-  margin: 0 auto;
+  height: 30px;
+  margin: auto;
   font-weight: 700;
+}
+
+a.body-link {
+  font-weight: 500;
+}
+
+
+
+nav.col-sm-5 {
+  padding: 10px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+h2.section-title {
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
 }
 
 h3 {
-  font-family: 'Fredericka the Great', cursive;
-  margin: 0;
-  letter-spacing: 0.05em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0 10px 10px 10px;
 }
 
-nav {
-  padding-left: 58%;
-  margin-right: 0;
+div.body-text {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
 }
 
-ul {
-      float: right;
-}
-
-a {
-  color: #000000;
-  text-decoration: none;
-}
-
-li {
+ul.navbar-links {
   list-style: none;
-  display: inline;
-  padding: 0 30px;
-  font-family: 'Fredericka the Great', cursive;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-}
-
-.home__photo {
-  width: 60%;
-  height: auto;
-  margin: 0;
-  padding: 0 0 0 0;
-  border: 3px solid black;
-}
-
-.photo {
-  width: 60%;
-  height: auto;
-  margin-top: 20px;
-  border: 3px solid black;
-}
-
-.text {
-  font-size: 18px;
-  width: 80%;
-  padding: 20px;
+  text-align: right;
   margin: auto;
 }
 
-p {
-  margin: 5px;
-}
-
-.caption {
-  font-size: 13px;
+p.caption {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
   font-style: italic;
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 
-#my-work {
+section {
   display: inline-block;
-  width: 35%;
-  float: left;
-  height: 150px;
-  margin: 0 0 20px 150px;
-  border: 3px solid black;
-  padding: 0 0 40px 0;
 }
 
-#contact {
-  display: inline-block;
-  width: 35%;
-  float: right;
-  height: 150px;
-  margin: 0 150px 20px 0;
-  border: 3px solid black;
-  padding: 0 0 40px 0;
+div.back-to-top {
+    text-align: right;
+    padding: 0 20px;
 }
 
-footer {
-  background-color: black;
-  height: 50px;
+a.back-to-top {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
 }
 
-.social img {
+section.content {
+  padding: 10px;
+}
+
+img {
+
+}
+
+img.photo {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid black;
+}
+
+li.nav-link {
   display: inline;
-  float: left;
+  font-size: 18px;
+}
+
+img.social-link {
   height: 30px;
   width: auto;
-  margin: 10px 0 auto 10px;
 }
 
-#footer-logo {
-  float: right;
-  padding: 8px 10px 8px 0;
+div.social-links {
+  height: 30px;
 }
 
-.contact-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+div.ga-link {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+}
+
+footer.footer-nav {
+  margin-top: 50px;
+  height: 50px;
+  background-color: #7F7F7F;
 }
