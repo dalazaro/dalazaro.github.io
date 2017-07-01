@@ -1,5 +1,6 @@
 body {
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
 }
 
 h1 a {
