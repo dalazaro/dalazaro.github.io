@@ -2,7 +2,7 @@
 
 This repository contains the projects programmed and developed by Daryl Jason Lazaro over the course of WDI 39 at General Assembly, San Francisco. The course runs from June 26 to September 20, 2017, and will include a personal profile page, individual projects, and group projects. This repository will potentially be used by the owner as a professional portfolio during the job search after completion of the WDI.
 
-![splash page preview](assets/imgs/splash.png "splash-preview")
+<!-- ![splash page preview](assets/imgs/splash.png "splash-preview") -->
 
 ## Access
 
