@@ -6,18 +6,28 @@ body {
 h1 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
   font-size: 30px;
   height: 30px;
+}
+
+h1 a:hover {
+  color: #FFFFFF;
 }
 
 nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
   padding: 0 20px;
   letter-spacing: 0.1em;
+}
+
+nav a:hover {
+  color: #FFFFFF;
 }
 
 header.front-title {
@@ -37,34 +47,20 @@ div.col-md-6 {
   padding: 10px;
 }
 
-div.col-sm-6 {
-  padding: 10px;
-}
-
-div.col-sm-7 {
-  padding: 10px;
-}
-
-div.col-sm-4 {
-  padding: 10px;
-}
-
 header {
+  background-color: #4F4F4F;
 }
 
 i {
   font-style: italic;
 }
 
-div p {
-}
-
 h1.headline {
   text-transform: uppercase;
   text-align: center;
-  height: 30px;
   font-weight: 700;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
   letter-spacing: 0.1em;
 }
 
@@ -72,8 +68,9 @@ a.body-link {
   font-weight: 500;
 }
 
-.navbar {
-  margin: 0px;
+nav {
+  margin: 0;
+  height: 40px;
 }
 
 nav.col-sm-5 {
@@ -104,7 +101,7 @@ div.body-text {
 ul.navbar-links {
   list-style: none;
   text-align: center;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 p.caption {
@@ -146,10 +143,6 @@ a.back-to-top {
 
 section.content {
   padding: 10px;
-}
-
-img {
-
 }
 
 img.photo {
