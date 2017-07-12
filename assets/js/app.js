@@ -35,7 +35,9 @@ function listRepos(dataResponse) {
         //List item of repository info
         var link = repo.html_url;
         var title = repo.name;
-        var date = repo.created_at.substr(0, 10);
+        var date = repo.created_at.substr(5, 5);
+        // var repoDate = new Date(date);
+        // console.log(repoDate);
 
         $('#listOfRepositories').append(`<li><a class="body-link" href="${link}" target="blank">[${title}]</a> (${date})</li>`);
 
