@@ -14,6 +14,7 @@
 
   <!-- styles -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- scripts -->
@@ -24,39 +25,80 @@
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 
-  <title>DARYL JASON LAZARO</title>
+  <title>Daryl Jason Lazaro | Full Stack Web Developer</title>
 
 </head>
 
-<body class="container">
+<body class="grey lighten-5">
 
-  <main>
-    <h1 class="center">DARYL JASON LAZARO</h1>
+  <!-- <header class="container">
+  </header> -->
+
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper grey darken-4">
+          <a href="#" class="brand-logo grey-text text-lighten-3"><img class="navbar-icon" src="assets/imgs/favicon.png"></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1 class="title center grey-text text-darken-3"><b>Daryl Jason Lazaro</b></h1>
 
     <section class="row">
       <div class="col l6">
-        <img class="responsive-img materialboxed" src="assets/imgs/ga-profile.jpg">
-        <p class="center">
-          <i>"We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"</i> &mdash; Fantastic Mr. Fox
+        <img class="responsive-img materialboxed z-depth-2" src="assets/imgs/ga-profile.jpg">
+        <p class="quote center">
+          <i>"We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"</i>
+          <br>
+          <b><i>&mdash; Fantastic Mr. Fox</i></b>
         </p>
       </div>
 
       <div class="col l6">
         <div class="body-text">
-          <p>Welcome to my personal and professional portfolio page!</p>
+          <p>Hi, I'm Daryl. Welcome to my full stack portfolio!</p>
           <p>I have experience in building webpages and web applications using the following: HTML, CSS, JavaScript, React, Node.js, MongoDB, Bootstrap, Foundation, and Materialize.</p>
-          <p>I am currently finishing up the Web Development Immersive at General Assembly in San Francisco. After that, I will be accepting new webpage and web application projects! Want to work together? Feel free to <a class="body-link" href="assets/imgs/Lazaro-Resume 2017.pdf" target="blank">look through my resum&eacute;</a> and reach out to me via email or LinkedIn.</p>
+          <p>I am currently finishing up the Web Development Immersive at General Assembly in San Francisco. After that, I will be accepting new webpage and web application projects!</p>
+          <p>Want to work together? Feel free to <a class="body-link" href="assets/imgs/Lazaro-Resume 2017.pdf" target="blank">look through my resum&eacute;</a> and reach out to me via email or LinkedIn.</p>
         </div>
       </div>
     </section>
 
     <hr>
 
-    <h2 class="center">Projects</h2>
+    <h2 class="title grey-text text-darken-3 flow-text center"><b>Projects</b></h2>
+
+    <section class="row" id="projects">
+
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">Slurp SF</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">peached.ink</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">Project Wayfarer</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+    </section>
+
+    <br>
 
     <div class="repo-modal center">
       <!-- Modal Trigger -->
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">GitHub Repositories</a>
+      <a class="waves-effect waves-light btn modal-trigger light-blue darken-1" href="#modal1">GitHub Repositories List</a>
 
       <!-- Modal Structure -->
       <div id="modal1" class="modal modal-fixed-footer">
@@ -69,55 +111,24 @@
         </div>
       </div>
     </div>
+
     <br>
-    <section class="row" id="projects">
-
-      <div class="col m4">
-        <img class="responsive-img materialboxed" src="assets/imgs/github.png">
-        <p class="center"><b>Slurp SF</b></p>
-      </div>
-
-      <div class="col m4">
-        <img class="responsive-img materialboxed" src="assets/imgs/github.png">
-        <p class="center"><b>peached.ink</b></p>
-      </div>
-
-      <div class="col m4">
-        <img class="responsive-img materialboxed" src="assets/imgs/github.png">
-        <p class="center"><b>Project Wayfarer</b></p>
-      </div>
-
-    </section>
-
-    <!-- back to top
-    <div class="back-to-top">
-      <a class="back-to-top" href="index.html">^ [back to top]</a>
-    </div> -->
 
   </main>
 
-  <footer class="page-footer grey lighten-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="black-text">Connect</h5>
-          <p class="black-text">Thanks for visiting my portfolio! Hope to hear from you soon.</p>
+  <footer class="page-footer grey darken-4">
+    <div class="container center">
+      <h5 class="title grey-text text-lighten-3 flow-text"><b>Connect</b></h5>
+        <div class="row">
+          <a class="grey-text text-lighten-3" href="mailto:daryl.lazaro@gmail.com">Email</a> |
+          <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dalazaro">LinkedIn</a> |
+          <a class="grey-text text-lighten-3" href="assets/imgs/Lazaro-Resume 2017.pdf">Resum&eacute;</a> |
+          <a class="grey-text text-lighten-3" href="https://www.github.com/dalazaro">GitHub</a>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <!-- <h5 class="white-text">Links</h5> -->
-          <ul>
-            <li><a class="black-text" href="mailto:daryl.lazaro@gmail.com">Email</a></li>
-            <li><a class="black-text" href="https://www.linkedin.com/in/dalazaro">LinkedIn</a></li>
-            <li><a class="black-text" href="https://www.github.com/dalazaro">GitHub</a></li>
-            <li><a class="black-text" href="assets/imgs/Lazaro-Resume 2017.pdf">Resum&eacute;</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
     <div class="footer-copyright">
-      <div class="black-text container center">
-      © 2017 Daryl Jason Lazaro
-      <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      <div class="container center">
+      Made by me, via Materialize. © 2017
       </div>
     </div>
   </footer>
