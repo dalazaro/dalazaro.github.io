@@ -13,124 +13,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- styles -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Quicksand" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- scripts -->
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 
-  <title>DARYL JASON LAZARO</title>
+  <title>Daryl Jason Lazaro | Full Stack Web Developer</title>
 
 </head>
 
-<body>
+<body class="grey lighten-5">
+
+  <!-- <header class="container">
+  </header> -->
+
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper grey darken-4">
+          <a href="#" class="brand-logo grey-text text-lighten-3"><img class="navbar-icon" src="assets/imgs/favicon.png"></a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
   <main class="container">
 
-    <header class="front-header">
-      <div class="front-title">
-        <h1 class="headline"><a href="index.html">Daryl Jason Lazaro</a></h1>
-      </div>
-      <nav>
-        <ul class="navbar-links">
-          <li class="nav-link"><a href="#my-work">My Work</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <h1 class="title center grey-text text-darken-3"><b>Daryl Jason Lazaro</b></h1>
 
-    <section class="content" id="intro">
-      <div class="col-md-6">
-        <img class="photo" id="intro-photo" src="assets/imgs/ga-profile.jpg" alt="GA">
-        <p class="caption">"We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"<br>
-          <div class="quote-source">- Fantastic Mr. Fox</div>
+    <section class="row">
+      <div class="col l6">
+        <img class="responsive-img materialboxed z-depth-2" src="assets/imgs/ga-profile.jpg">
+        <p class="quote center">
+          <i>"We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"</i>
+          <br>
+          <b><i>&mdash; Fantastic Mr. Fox</i></b>
         </p>
       </div>
 
-      <div class="col-md-6">
+      <div class="col l6">
         <div class="body-text">
-          <p>Welcome to my personal and professional portfolio page!<br /><br />
-          <p>I have experience in building webpages and web applications using the following: HTML, CSS, JavaScript, React, Node.js, MongoDB, Bootstrap, Foundation, and Materialize. <br /><br />
-          <p>I am currently finishing up the Web Development Immersive at General Assembly in San Francisco. After that, I will be accepting new webpage and web application projects! Want to work together? Feel free to <a class="body-link" href="assets/imgs/Lazaro-Resume 2017.pdf" target="blank">look through my resum&eacute;</a> and reach out to me via email or LinkedIn.</p>
+          <p>Hi, I'm Daryl. Welcome to my full stack portfolio!</p>
+          <p>I have experience in building webpages and web applications using the following: HTML, CSS, JavaScript, React, Node.js, MongoDB, Bootstrap, Foundation, and Materialize.</p>
+          <p>I am currently finishing up the Web Development Immersive at General Assembly in San Francisco. After that, I will be accepting new webpage and web application projects!</p>
+          <p>Want to work together? Feel free to <a class="body-link" href="assets/imgs/Lazaro-Resume 2017.pdf" target="blank">look through my resum&eacute;</a> and reach out to me via email or LinkedIn.</p>
         </div>
       </div>
     </section>
 
-    <section class="content" id="my-work">
-      <h2 class="section-title">My Work</h2>
-      <h3>Homework & Project Deliverables from WDI 39</h3>
+    <hr>
 
-      <div class="col-md-6">
-        <div class="body-text">
-          <p><a class="body-link" href="https://github.com/dalazaro" target="blank">[Daryl Jason Lazaro on GitHub]</a></p>
-          <p><i>This section includes links to my individual repositories on GitHub.</i></p>
-          <br>
-          <ul id="listOfRepositories"></ul>
-        </div>
+    <h2 class="title grey-text text-darken-3 flow-text center"><b>Projects</b></h2>
+
+    <section class="row" id="projects">
+
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">Slurp SF</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
-      <div class="col-md-6">
-        <img class="photo" id="work-photo" src="assets/imgs/github.png" alt="github">
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">peached.ink</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <div class="col m4">
+        <img class="responsive-img materialboxed z-depth-1" src="assets/imgs/github.png">
+        <p class="project-link center"><b><a href="#">Project Wayfarer</a></b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
     </section>
 
-    <div class="back-to-top">
-      <a class="back-to-top" href="index.html">^ [back to top]</a>
+    <br>
+
+    <div class="repo-modal center">
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger light-blue darken-1" href="#modal1">GitHub Repositories List</a>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>GitHub Repositories</h4>
+          <ul id='listOfRepositories'></ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        </div>
+      </div>
     </div>
 
-    <section class="content" id="contact">
-      <h2 class="section-title">Contact</h2>
-
-      <div class="col-md-6">
-        <div class="body-text">
-          <p><b>Email:</b><br><a class="body-link" href="mailto:daryl.lazaro@gmail.com">[daryl.lazaro@gmail.com]</a>
-            <br /><br />
-            <b>Connect on:</b><br />
-            <a class="body-link" href="https://github.com/dalazaro/dalazaro.github.io" target="blank">[GitHub]</a><br />
-            <a class="body-link" href="https://www.linkedin.com/in/daryl-jason-lazaro-b0761062/" target="blank">[LinkedIn]</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <img class="photo" id="contact-photo" src="assets/imgs/grass.jpg" alt="grass">
-      </div>
-
-    </section>
-
-
-    <div class="back-to-top">
-      <a class="back-to-top" href="index.html">^ [back to top]</a>
-    </div>
-
-
-    <footer class="footer-nav">
-      <div class="col-xs-6">
-        <div class="social-links">
-          <a href="mailto:daryl.lazaro@gmail.com" target="blank"><img class="social-link" id="gmail-logo" src="assets/imgs/gmail-icon.svg"></a>
-
-          <a href="https://www.linkedin.com/in/daryl-jason-lazaro-b0761062/" target="blank"><img class="social-link" id="linkedin-logo" src="assets/imgs/linkedin-icon.png"></a>
-        </div>
-      </div>
-
-      <div class="col-xs-6">
-        <div class="ga-link">
-          <a href="https://generalassemb.ly" target="blank"><img class="social-link" id="footer-logo" src="assets/imgs/favicon.png" alt="GA"></a>
-        </div>
-      </div>
-
-    </footer>
+    <br>
 
   </main>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container center">
+      <h5 class="title grey-text text-lighten-3 flow-text"><b>Connect</b></h5>
+        <div class="row">
+          <a class="grey-text text-lighten-3" href="mailto:daryl.lazaro@gmail.com">Email</a> |
+          <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dalazaro">LinkedIn</a> |
+          <a class="grey-text text-lighten-3" href="assets/imgs/Lazaro-Resume 2017.pdf">Resum&eacute;</a> |
+          <a class="grey-text text-lighten-3" href="https://www.github.com/dalazaro">GitHub</a>
+        </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      Made by me, via Materialize. © 2017
+      </div>
+    </div>
+  </footer>
 
 </body>
 

@@ -8,8 +8,12 @@ var repoEndpoint = 'https://api.github.com/users/dalazaro/repos';
 //when info is gathered
 $(document).ready(function() {
 
+  $('.parallax').parallax();
+
   //callback for listing repos
   listRepos();
+
+  $('.modal').modal();
 
 });
 
