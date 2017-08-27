@@ -1,21 +1,31 @@
-.quote {
-  font-size: 12px;
-}
-
 .navbar-icon {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.footer-copyright {
-  border-top: 1px solid #757575;
+h1 {
+  font-size: 28px;
 }
 
 .title {
   text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
 
-h1 {
-  font-size: 28px;
+.rounded-img{
+  border-radius: 7px;
+}
+
+.quote {
+  font-size: 12px;
+}
+
+#intro-paragraph {
+  margin-top: 0;
+}
+
+.footer-copyright {
+  border-top: 1px solid #757575;
 }
