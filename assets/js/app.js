@@ -34,6 +34,6 @@ function listRepos(dataResponse) {
         $('#listOfRepositories').append(`<li><a class="body-link" href="${link}" target="blank">[${title}]</a> (${date})</li>`);
 
       });
-    };
+    }
   });
 };
