@@ -9,6 +9,9 @@ $(document).ready(function() {
 
   $('.modal').modal();
 
+  $('.fixed-action-btn').openFAB();
+  $('.fixed-action-btn').closeFAB();
+
 });
 
 function listRepos(dataResponse) {
