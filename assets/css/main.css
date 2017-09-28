@@ -29,3 +29,11 @@ h1 {
 .footer-copyright {
   border-top: 1px solid #757575;
 }
+
+#projects {
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 15px;
+}
