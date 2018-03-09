@@ -1,39 +1,16 @@
-.navbar-icon {
-  margin-top: 12px;
-  margin-left: 15px;
-  margin-right: 15px;
+.top-margin {
+  margin-top: 56px;
 }
 
-h1 {
-  font-size: 28px;
+.profile-img {
+  border-radius: 50%;
 }
 
 .title {
-  text-transform: uppercase;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
+  text-align: center;
 }
 
-.rounded-img{
-  border-radius: 7px;
-}
-
-.quote {
-  font-size: 12px;
-}
-
-#intro-paragraph {
-  margin-top: 0;
-}
-
-.footer-copyright {
-  border-top: 1px solid #757575;
-}
-
-#projects {
-  margin-bottom: 40px;
-}
-
-.project {
-  margin-bottom: 15px;
+.project-img{
+  border-radius: 1%;
+  border: 1px solid grey;
 }
