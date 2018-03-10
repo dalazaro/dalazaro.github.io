@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="top-margin container">
+<body class="container">
 
   <header>
 
@@ -44,26 +44,22 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
 
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
 
         </ul>
@@ -76,39 +72,29 @@
 
   <main>
 
-    <section class="">
+    <section class="top-margin">
 
-      <h1 class="title">
-        Hello! I'm Daryl.
-      </h1>
+      <div class="title">
+
+        <h1 class="quote">
+          "We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"
+        </h1>
+
+        <h2 class="quote-cited">
+          &mdash; Fantastic Mr. Fox
+        </h2>
+
+      </div>
 
       <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-lg-5 profile-div">
 
-          <img class="img-fluid profile-img" src="assets/imgs/ga-profile.jpg">
-
-          <div>
-
-            <p>
-              <i>
-                "We're all different. Especially him.<br> But there's something kind of fantastic about that, isn't there?"
-              </i>
-            </p>
-
-            <p>
-              <b>
-                <i>
-                  &mdash; Fantastic Mr. Fox
-                </i>
-              </b>
-            </p>
-
-          </div>
+          <img class="profile-img" src="assets/imgs/ga-profile.jpg">
 
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-7 profile-div">
 
           <p>
             I'm a software engineer and web developer with interest and experience in building full stack web applications, RESTful APIs, and beautiful, responsive UI with cross-browser compatibility. I'm fascinated by tech innovations in K-12 education and creative media, and love contributing to code built with scalability and easy maintenance in mind.
@@ -132,33 +118,43 @@
         Skills
       </h2>
 
-      <p>
-        I have knowledge and experience with:
-      </p>
+      <div class="skills-byline">
+        My ever-expanding tools of the trade:
+      </div>
 
-      <ul>
-        <li>JavaScript</li>
-        <li>Ruby</li>
-        <li>Python</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>jQuery</li>
-        <li>MongoDB</li>
-        <li>PostgreSQL</li>
-        <li>Rails</li>
-        <li>Sass</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-        <li>Heroku</li>
-        <li>Amazon Web Services</li>
-        <li>AWS Lambda</li>
-        <li>Alexa Skills Kit</li>
-        <li>RSpec</li>
-        <li>AJAX</li>
-        <li>Vue.js</li>
+      <ul class="row text-center skills-list">
+
+        <div class="col-sm-4">
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Python</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+        </div>
+
+        <div class="col-sm-4">
+          <li>jQuery</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
+          <li>Rails</li>
+          <li>Sass</li>
+          <li>Bootstrap</li>
+        </div>
+
+        <div class="col-sm-4">
+          <li>Git</li>
+          <li>Heroku</li>
+          <li>Amazon Web Services</li>
+          <li>AWS Lambda</li>
+          <li>Alexa Skills Kit</li>
+          <li>RSpec</li>
+          <li>AJAX</li>
+          <li>Vue.js</li>
+        </div>
+
       </ul>
 
     </section>
@@ -179,27 +175,23 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/peachedink-splash.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://www.peachedink.com/" target="_blank">peached.ink</a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://www.peachedink.com/" target="_blank">
+              peached.ink
+            </a>
+          </div>
 
-          <p>
-            <b>
-              Presented as capstone project for Web Development Immersive.
-            </b>
-          </p>
+          <div class="project-byline">
+            Presented as capstone project for Web Development Immersive.
+          </div>
 
-          <p>
-            <i>
-              Technologies: Ruby on Rails, PostgreSQL, Bootstrap 4, Heroku, BCrypt
-            </i>
-          </p>
+          <div class="project-stack">
+            Technologies: Ruby on Rails, PostgreSQL, Bootstrap 4, Heroku, BCrypt
+          </div>
 
-          <p>
+          <div class="project-pitch">
             peached.ink is an online art portfolio for illustrator Kean Saetern. Visitors can view her illustration slideshows, read her profile, and connect with her. Behind the scenes, Kean can log in to the app through a hidden endpoint to access her custom CMS, update her profile, and CRUD her own illustrations.
-          </p>
+          </div>
 
         </div>
 
@@ -209,29 +201,23 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/moviee.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://moviee-clone.herokuapp.com/" target="_blank">
-                Moviee
-              </a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://moviee-clone.herokuapp.com/" target="_blank">
+              Moviee
+            </a>
+          </div>
 
-          <p>
-            <b>
-              This app is a replication of <a href="http://moviee.surge.sh/">Moviee</a>, updated to resolve various issues in the original codebase.
-            </b>
-          </p>
+          <div class="project-byline">
+            This app is a replication of <a href="http://moviee.surge.sh/">Moviee</a>, updated to resolve various issues in the original codebase.
+          </div>
 
-          <p>
-            <i>
-              Technologies: React, The Movie Database API, Heroku
-            </i>
-          </p>
+          <div class="project-stack">
+            Technologies: React, The Movie Database API, Heroku
+          </div>
 
-          <p>
+          <div class="project-pitch">
             Moviee is a React single-page application that displays recently released popular movie selections according to The Movie Database (TMDB) API. Users can also search the TMDB database for a particular movie.
-          </p>
+          </div>
 
         </div>
 
@@ -241,29 +227,23 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/ponder-splash.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://ponder-blog.herokuapp.com/" target="_blank">
-                Ponder
-              </a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://ponder-blog.herokuapp.com/" target="_blank">
+              Ponder
+            </a>
+          </div>
 
-          <p>
-            <b>
-              Served as creator of Ponder and project leader for a team of three developers.
-            </b>
-          </p>
+          <div class="project-byline">
+            Served as creator of Ponder and project leader for a team of three developers.
+          </div>
 
-          <p>
-            <i>
-              Technologies: Ruby on Rails, PostgreSQL, Materialize, Digital Ocean, BCrypt
-            </i>
-          </p>
+          <div class="project-stack">
+            Technologies: Ruby on Rails, PostgreSQL, Materialize, Digital Ocean, BCrypt
+          </div>
 
-          <p>
+          <div class="project-pitch">
             Ponder is a distraction-free microblogging app for creative writers, prioritizing the distribution of original content in the form of philosophies, poems, prose, or movie/music/TV show reviews.
-          </p>
+          </div>
 
         </div>
 
@@ -277,17 +257,19 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/slurp-sf.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://slurp-sf.herokuapp.com" target="_blank">
-                Slurp SF
-              </a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://slurp-sf.herokuapp.com" target="_blank">
+              Slurp SF
+            </a>
+          </div>
 
-          <p><i>Technologies: Node.js/Express, MongoDB, JavaScript, AJAX, Bootstrap, Heroku</i></p>
+          <div class="project-stack">
+            Technologies: Node.js/Express, MongoDB, JavaScript, AJAX, Bootstrap, Heroku
+          </div>
 
-          <p>Slurp SF is a crowdsourced guide to ramen restaurants in San Francisco. Users can view a list of ramen shops in a specific neighborhood, and read food recommendations (called "slurps") written by others. Users may also add a restaurant to the database, or write their own slurps.</p>
+          <div class="project-pitch">
+            Slurp SF is a crowdsourced guide to ramen restaurants in San Francisco. Users can view a list of ramen shops in a specific neighborhood, and read food recommendations (called "slurps") written by others. Users may also add a restaurant to the database, or write their own slurps.
+          </div>
 
         </div>
 
@@ -297,23 +279,19 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/geoquakes-splash.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank">
-                Geoquakes
-              </a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank">
+              Geoquakes
+            </a>
+          </div>
 
-          <p>
-            <i>
-              Technologies: Google Maps, USGS GeoJSON API, JavaScript, JSON, AJAX, Bootstrap, GitHub Pages
-            </i>
-          </p>
+          <div class="project-stack">
+            Technologies: Google Maps, USGS GeoJSON API, JavaScript, JSON, AJAX, Bootstrap, GitHub Pages
+          </div>
 
-          <p>
+          <div class="project-pitch">
             This live earthquake feed application accesses data from the United States Geological Services API and renders time, magnitude, and location onto the page, along with location markers in a Google Map interface.
-          </p>
+          </div>
 
         </div>
 
@@ -323,53 +301,23 @@
             <img class="img-fluid project-img" src="assets/imgs/screenshots/project-0.png">
           </a>
 
-          <p class="project-link center">
-            <b>
-              <a href="https://dalazaro.github.io/project-0" target="_blank">
-                Monster Truck Drag Race
-              </a>
-            </b>
-          </p>
+          <div class="project-title">
+            <a href="https://dalazaro.github.io/project-0" target="_blank">
+              Monster Truck Drag Race
+            </a>
+          </div>
 
-          <p>
-            <i>
-              Technologies: HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub Pages
-            </i>
-          </p>
+          <div class="project-stack">
+            Technologies: HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub Pages
+          </div>
 
-          <p>
+          <div class="project-pitch">
             This racing game, inspired by the TV show <i>Blaze and the Monster Machines</i>, is simply a sprint to the finish line using the Q and P keys on the keyboard. My 3-year-old is addicted to this game.
-          </p>
+          </div>
 
         </div>
 
       </div>
-
-      <!-- <div class="repo-modal center">
-        Modal Trigger
-        <a class="waves-effect waves-light btn modal-trigger light-blue darken-1" href="#modal1">GitHub Repositories List</a>
-
-        Modal Structure
-        <div id="modal1" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>GitHub Repositories</h4>
-            <ul id='listOfRepositories'></ul>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
-      </div> -->
-
-    </section>
-
-    <hr>
-
-    <section id="experience">
-
-      <h2 class="title">
-        Experience
-      </h2>
 
     </section>
 
@@ -381,6 +329,48 @@
         Education
       </h2>
 
+      <div class="row">
+
+        <div class="col-md-5 education-img-div">
+
+          <img class="education-img" src="assets/imgs/ga.png">
+
+        </div>
+
+        <div class="col-md-7 education-description">
+
+          <div class="alma-mater">General Assembly, San Francisco</div>
+
+          <hr>
+
+          <div class="education-degree">Completion of Web Development Immersive</div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-5 education-img-div">
+
+          <img class="education-img" src="assets/imgs/ucdavis.png">
+
+        </div>
+
+        <div class="col-md-7 education-description">
+
+          <div class="alma-mater">University of California, Davis</div>
+
+          <hr>
+
+          <div class="education-degree">Bachelor of Arts, English</div>
+
+          <div class="education-degree">Minor in Music</div>
+
+        </div>
+
+      </div>
+
     </section>
 
     <hr>
@@ -391,33 +381,35 @@
         Contact
       </h2>
 
-      <ul class="">
+      <div class="text-center">
 
-        <li>
-          <a class="grey-text text-lighten-3" href="mailto:daryl.lazaro@gmail.com">Email</a>
-        </li>
+        <a href="mailto:daryl.lazaro@gmail.com" target="_blank" class="btn btn-dark btn-lg contact" role="button">
+          Send an Email
+        </a>
 
-        <li>
-          <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dalazaro">LinkedIn</a>
-        </li>
+        <a href="assets/files/Daryl_Lazaro_Resume.pdf" target="_blank" class="btn btn-dark btn-lg contact" role="button">
+          View Résumé
+        </a>
 
-        <li>
-          <a class="grey-text text-lighten-3" href="https://www.github.com/dalazaro">GitHub</a>
-        </li>
+        <a href="https://www.linkedin.com/in/dalazaro" target="_blank" class="btn btn-dark btn-lg contact" role="button">
+          LinkedIn
+        </a>
 
-        <li>
-          <a class="grey-text text-lighten-3" href="assets/files/Daryl_Lazaro_Resume.pdf">Résumé</a>
-        </li>
+        <a href="https://www.github.com/dalazaro" target="_blank" class="btn btn-dark btn-lg contact" role="button">
+          GitHub
+        </a>
 
-      </ul>
+      </div>
 
     </section>
 
   </main>
 
+  <hr>
+
   <footer>
 
-    <div class="">
+    <div class="footer-content">
       Daryl Jason Lazaro © 2018
     </div>
 
