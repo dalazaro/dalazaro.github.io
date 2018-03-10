@@ -1,16 +1,117 @@
+.navbar-brand {
+  text-transform: uppercase;
+}
+
 .top-margin {
   margin-top: 56px;
 }
 
-.profile-img {
-  border-radius: 50%;
-}
-
 .title {
   text-align: center;
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding: 30px 0 10px 0;
 }
 
-.project-img{
+.quote {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.quote-cited {
+  font-style: italic;
+  font-size: 1.25em;
+}
+
+.skills-byline {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.profile-div {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.project {
+  padding: 10px;
+}
+
+.project-img {
   border-radius: 1%;
   border: 1px solid grey;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 1.25em;
+  margin: 10px auto;
+  font-weight: 700;
+}
+
+.project-byline {
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.project-stack {
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.project-pitch {
+  margin: 10px auto;
+}
+
+.education-img-div {
+  padding: 20px;
+}
+
+.education-img {
+  height: 250px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.education-description {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.alma-mater {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.education-degree {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.contact {
+  width: 165px;
+  margin: 10px;
+}
+
+.footer-content {
+  margin: 50px auto;
+  text-align: center;
 }
