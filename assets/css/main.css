@@ -1,39 +1,119 @@
-.navbar-icon {
-  margin-top: 12px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-h1 {
-  font-size: 28px;
+.navbar-brand {
+  text-transform: uppercase;
 }
 
 .title {
-  text-transform: uppercase;
-  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding: 20px 0;
   font-weight: 700;
 }
 
-.rounded-img{
-  border-radius: 7px;
-}
-
 .quote {
-  font-size: 12px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
-#intro-paragraph {
-  margin-top: 0;
+.quote-cited {
+  font-style: italic;
+  font-size: 1.25em;
 }
 
-.footer-copyright {
-  border-top: 1px solid #757575;
+.skills-byline {
+  text-align: center;
+  font-size: 1.25em;
 }
 
-#projects {
-  margin-bottom: 40px;
+.profile-div {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 20px 0;
 }
 
 .project {
-  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.project-img {
+  border-radius: 1%;
+  border: 1px solid grey;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 1.25em;
+  margin: 10px auto;
+  font-weight: 700;
+}
+
+.project-byline {
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.project-stack {
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.project-pitch {
+  margin: 10px auto;
+}
+
+.education-img-div {
+  padding: 20px;
+}
+
+.education-img {
+  height: 250px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.education-description {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.alma-mater {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.education-degree {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.contact-icon {
+  width: 165px;
+  margin: 10px;
+}
+
+#splash, #skills, #projects, #education, #contact {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.footer-content {
+  margin: 50px auto;
+  text-align: center;
 }

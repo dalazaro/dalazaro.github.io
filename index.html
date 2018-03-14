@@ -13,11 +13,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
 
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9911903-8"></script>
@@ -28,158 +26,404 @@
     gtag('config', 'UA-9911903-8');
   </script>
 
-  <!-- scripts -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js"></script>
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=59c1606d063bb0001109bc86&product=sticky-share-buttons' async='async'></script> -->
-
-  <!-- favicon -->
-  <!-- <link rel="icon" type="image/png" href="assets/imgs/favicon.png"> -->
-
-  <title>Daryl Jason Lazaro | Full Stack Web Developer</title>
+  <title>Daryl Jason Lazaro | Full Stack Web Developer | Software Engineer | Educator</title>
 
 </head>
 
-<body class="grey lighten-5">
+<body class="container">
 
   <header>
-    <div class="navbar">
-      <nav>
-        <div class="nav-wrapper grey darken-4">
-          <a href="#" class="brand-logo grey-text text-lighten-3"></a>
-        </div>
-      </nav>
-    </div>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+      <a class="navbar-brand mb-0 h1" href="#">Daryl Jason Lazaro</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
   </header>
 
-  <main class="container">
+  <main>
 
-    <h1 class="title center grey-text text-darken-3"><b>Daryl Jason Lazaro</b></h1>
+    <section id="splash">
 
-    <section class="row">
-      <div class="col l6">
-        <img class="rounded-img responsive-img materialboxed z-depth-2" src="assets/imgs/ga-profile.jpg">
-        <p class="quote center">
-          <i>"We're all different. Especially him.<br> But there's something kind of fantastic about that, isn't there?"</i>
-          <br>
-          <b><i>&mdash; Fantastic Mr. Fox</i></b>
-        </p>
+      <div class="title">
+
+        <h1 class="quote">
+          "We're all different. Especially him. But there's something kind of fantastic about that, isn't there?"
+        </h1>
+
+        <h2 class="quote-cited">
+          &mdash; Fantastic Mr. Fox
+        </h2>
+
       </div>
 
-      <div class="col l6">
-        <div class="body-text">
-          <p id="intro-paragraph">I'm a software engineer and web developer with interest and experience in building full stack web applications, RESTful APIs, and beautiful, responsive UI with cross-browser compatibility. I'm fascinated by tech innovations in K-12 education and creative media, and love contributing to code built with scalability and easy maintenance in mind.</p>
-          <p>As a former classroom teacher and graduate of the Web Development Immersive at General Assembly, my yearning for learning never stops, whether I’m in front of students or behind a computer screen. Feel free to message me about an exciting work opportunity, talking code, or just to say hello.</p>
-          <p>I have knowledge and experience with: JavaScript, Ruby, HTML, CSS, Python, React, Node.js, Express JS, jQuery, MongoDB, Mongoose, NoSQL, SQL, PostgreSQL, ActiveRecord, Rails, Ruby on Rails, SCSS, Sass, Bootstrap, Materialize, Git, GitHub, Heroku, AWS, Lambda, Alexa Skills Kit, RSpec, AJAX, Vue.js</p>
+      <div class="row">
+
+        <div class="col-lg-5 profile-div">
+
+          <img class="profile-img" src="assets/imgs/ga-profile.jpg">
+
         </div>
+
+        <div class="col-lg-7 profile-div">
+
+          <p>
+            I'm a software engineer and web developer with interest and experience in building full stack web applications, RESTful APIs, and beautiful, responsive UI with cross-browser compatibility. I'm fascinated by tech innovations in K-12 education and creative media, and love contributing to code built with scalability and easy maintenance in mind.
+          </p>
+
+          <p>
+            As a former classroom teacher and graduate of the Web Development Immersive at General Assembly, my yearning for learning never stops, whether I’m in front of students or behind a computer screen. Feel free to message me about an exciting work opportunity, talking code, or just to say hello.
+          </p>
+
+        </div>
+
       </div>
+
+    </section>
+
+    <hr>
+
+    <section id="skills">
+
+      <h2 class="title">
+        Skills
+      </h2>
+
+      <div class="skills-byline">
+        My ever-expanding tools of the trade:
+      </div>
+
+      <ul class="row text-center skills-list">
+
+        <div class="col-sm-4">
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Python</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+        </div>
+
+        <div class="col-sm-4">
+          <li>jQuery</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
+          <li>Rails</li>
+          <li>Sass</li>
+          <li>Bootstrap</li>
+        </div>
+
+        <div class="col-sm-4">
+          <li>Git</li>
+          <li>Heroku</li>
+          <li>Amazon Web Services</li>
+          <li>AWS Lambda</li>
+          <li>Alexa Skills Kit</li>
+          <li>RSpec</li>
+          <li>AJAX</li>
+          <li>Vue.js</li>
+        </div>
+
+      </ul>
+
     </section>
 
     <hr>
 
     <section id="projects">
 
-      <h2 class="title grey-text text-darken-3 flow-text center"><b>Projects</b></h2>
+      <h2 class="title">
+        Projects
+      </h2>
 
       <div class="row">
-        <div class="col m4 project">
-          <a href="https://www.peachedink.com/" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/peachedink-splash.png"></a>
-          <p class="project-link center"><b><a href="https://www.peachedink.com/" target="_blank">peached.ink</a></b></p>
-          <p><b>Presented as capstone project for Web Development Immersive.</b></p>
-          <p><i>Technologies: Ruby on Rails, PostgreSQL, Bootstrap 4, Heroku, BCrypt</i></p>
-          <p>peached.ink is an online art portfolio for illustrator Kean Saetern. Visitors can view her illustration slideshows, read her profile, and connect with her. Behind the scenes, Kean can log in to the app through a hidden endpoint to access her custom CMS, update her profile, and CRUD her own illustrations.</p>
+
+        <div class="col-md-4 project">
+
+          <a href="https://www.peachedink.com/" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/peachedink-splash.png">
+          </a>
+
+          <div class="project-title">
+            <a href="https://www.peachedink.com/" target="_blank">
+              peached.ink
+            </a>
+          </div>
+
+          <div class="project-byline">
+            Presented as capstone project for Web Development Immersive.
+          </div>
+
+          <div class="project-stack">
+            Technologies: Ruby on Rails, PostgreSQL, Bootstrap 4, Heroku, BCrypt
+          </div>
+
+          <div class="project-pitch">
+            peached.ink is an online art portfolio for illustrator Kean Saetern. Visitors can view her illustration slideshows, read her profile, and connect with her. Behind the scenes, Kean can log in to the app through a hidden endpoint to access her custom CMS, update her profile, and CRUD her own illustrations.
+          </div>
+
         </div>
 
-        <div class="col m4 project">
-          <a href="https://moviee-clone.herokuapp.com/" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/moviee.png"></a>
-          <p class="project-link center"><b><a href="https://moviee-clone.herokuapp.com/" target="_blank">Moviee</a></b></p>
-          <p><b>This app is a replication of <a href="http://moviee.surge.sh/">Moviee</a>, updated to resolve various issues in the original codebase.</b></p>
-          <p><i>Technologies: React, The Movie Database API, Heroku</i></p>
-          <p>Moviee is a React single-page application that displays recently released popular movie selections according to The Movie Database (TMDB) API. Users can also search the TMDB database for a particular movie.</p>
+        <div class="col-md-4 project">
+
+          <a href="https://moviee-clone.herokuapp.com/" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/moviee.png">
+          </a>
+
+          <div class="project-title">
+            <a href="https://moviee-clone.herokuapp.com/" target="_blank">
+              Moviee
+            </a>
+          </div>
+
+          <div class="project-byline">
+            This app is a replication of <a href="http://moviee.surge.sh/">Moviee</a>, updated to resolve various issues in the original codebase.
+          </div>
+
+          <div class="project-stack">
+            Technologies: React, The Movie Database API, Heroku
+          </div>
+
+          <div class="project-pitch">
+            Moviee is a React single-page application that displays recently released popular movie selections according to The Movie Database (TMDB) API. Users can also search the TMDB database for a particular movie.
+          </div>
+
         </div>
 
-        <div class="col m4 project">
-          <a href="https://ponder-blog.herokuapp.com/" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/ponder-splash.png"></a>
-          <p class="project-link center"><b><a href="https://ponder-blog.herokuapp.com/" target="_blank">Ponder</a></b></p>
-          <p><b>Served as creator of Ponder and project leader for a team of three developers.</b></p>
-          <p><i>Technologies: Ruby on Rails, PostgreSQL, Materialize, Digital Ocean, BCrypt</i></p>
-          <p>Ponder is a distraction-free microblogging app for creative writers, prioritizing the distribution of original content in the form of philosophies, poems, prose, or movie/music/TV show reviews.</p>
+        <div class="col-md-4 project">
+
+          <a href="https://ponder-blog.herokuapp.com/" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/ponder-splash.png">
+          </a>
+
+          <div class="project-title">
+            <a href="https://ponder-blog.herokuapp.com/" target="_blank">
+              Ponder
+            </a>
+          </div>
+
+          <div class="project-byline">
+            Served as creator of Ponder and project leader for a team of three developers.
+          </div>
+
+          <div class="project-stack">
+            Technologies: Ruby on Rails, PostgreSQL, Materialize, Digital Ocean, BCrypt
+          </div>
+
+          <div class="project-pitch">
+            Ponder is a distraction-free microblogging app for creative writers, prioritizing the distribution of original content in the form of philosophies, poems, prose, or movie/music/TV show reviews.
+          </div>
+
         </div>
+
       </div>
 
       <div class="row">
-        <div class="col m4 project">
-          <a href="https://slurp-sf.herokuapp.com" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/slurp-sf.png"></a>
-          <p class="project-link center"><b><a href="https://slurp-sf.herokuapp.com" target="_blank">Slurp SF</a></b></p>
-          <p><i>Technologies: Node.js/Express, MongoDB, JavaScript, AJAX, Bootstrap, Heroku</i></p>
-          <p>Slurp SF is a crowdsourced guide to ramen restaurants in San Francisco. Users can view a list of ramen shops in a specific neighborhood, and read food recommendations (called "slurps") written by others. Users may also add a restaurant to the database, or write their own slurps.</p>
-        </div>
 
-        <div class="col m4 project">
-          <a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/geoquakes-splash.png"></a>
-          <p class="project-link center"><b><a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank">Geoquakes</a></b></p>
-          <p><i>Technologies: Google Maps, USGS GeoJSON API, JavaScript, JSON, AJAX, Bootstrap, GitHub Pages</i></p>
-          <p>This live earthquake feed application accesses data from the United States Geological Services API and renders time, magnitude, and location onto the page, along with location markers in a Google Map interface.</p>
-        </div>
+        <div class="col-md-4 project">
 
-        <div class="col m4 project">
-          <a href="https://dalazaro.github.io/project-0" target="_blank"><img class="rounded-img responsive-img z-depth-1" src="assets/imgs/screenshots/project-0.png"></a>
-          <p class="project-link center"><b><a href="https://dalazaro.github.io/project-0" target="_blank">Monster Truck Drag Race</a></b></p>
-          <p><i>Technologies: HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub Pages</i></p>
-          <p>This racing game, inspired by the TV show <i>Blaze and the Monster Machines</i>, is simply a sprint to the finish line using the Q and P keys on the keyboard. My 3-year-old is addicted to this game.</p>
-        </div>
-      </div>
+          <a href="https://slurp-sf.herokuapp.com" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/slurp-sf.png">
+          </a>
 
-      <div class="repo-modal center">
-        <!-- Modal Trigger -->
-        <a class="waves-effect waves-light btn modal-trigger light-blue darken-1" href="#modal1">GitHub Repositories List</a>
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>GitHub Repositories</h4>
-            <ul id='listOfRepositories'></ul>
+          <div class="project-title">
+            <a href="https://slurp-sf.herokuapp.com" target="_blank">
+              Slurp SF
+            </a>
           </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+
+          <div class="project-stack">
+            Technologies: Node.js/Express, MongoDB, JavaScript, AJAX, Bootstrap, Heroku
           </div>
+
+          <div class="project-pitch">
+            Slurp SF is a crowdsourced guide to ramen restaurants in San Francisco. Users can view a list of ramen shops in a specific neighborhood, and read food recommendations (called "slurps") written by others. Users may also add a restaurant to the database, or write their own slurps.
+          </div>
+
         </div>
+
+        <div class="col-md-4 project">
+
+          <a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/geoquakes-splash.png">
+          </a>
+
+          <div class="project-title">
+            <a href="https://dalazaro-wdi39.github.io/geoquakes" target="_blank">
+              Geoquakes
+            </a>
+          </div>
+
+          <div class="project-stack">
+            Technologies: Google Maps, USGS GeoJSON API, JavaScript, JSON, AJAX, Bootstrap, GitHub Pages
+          </div>
+
+          <div class="project-pitch">
+            This live earthquake feed application accesses data from the United States Geological Services API and renders time, magnitude, and location onto the page, along with location markers in a Google Map interface.
+          </div>
+
+        </div>
+
+        <div class="col-md-4 project">
+
+          <a href="https://dalazaro.github.io/project-0" target="_blank">
+            <img class="img-fluid project-img" src="assets/imgs/screenshots/project-0.png">
+          </a>
+
+          <div class="project-title">
+            <a href="https://dalazaro.github.io/project-0" target="_blank">
+              Monster Truck Drag Race
+            </a>
+          </div>
+
+          <div class="project-stack">
+            Technologies: HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub Pages
+          </div>
+
+          <div class="project-pitch">
+            This racing game, inspired by the TV show <i>Blaze and the Monster Machines</i>, is simply a sprint to the finish line using the Q and P keys on the keyboard. My 3-year-old is addicted to this game.
+          </div>
+
+        </div>
+
       </div>
 
     </section>
 
-    <!-- Fixed Action Button -->
-    <div class="fixed-action-btn click-to-toggle">
-      <a class="btn-floating btn-large red darken-1 z-depth-2">
-        <i class="large material-icons">menu</i>
-      </a>
-      <ul>
-        <li><a class="btn-floating red" href="mailto:daryl.lazaro@gmail.com" title="Email" target="blank"><i class="material-icons">mail</i></a></li>
-        <li><a class="btn-floating blue darken-2 social linkedin" href="https://www.linkedin.com/in/dalazaro" title="LinkedIn" target="blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="btn-floating grey darken-3 social github" href="https://www.github.com/dalazaro" title="GitHub" target="blank"><i class="fa fa-github"></i></a></li>
-        <li><a class="btn-floating green" href="assets/files/Daryl_Lazaro_Resume.pdf" title="Résumé" target="blank"><i class="material-icons">description</i></a></li>
-      </ul>
-    </div>
+    <hr>
+
+    <section id="education">
+
+      <h2 class="title">
+        Education
+      </h2>
+
+      <div class="row">
+
+        <div class="col-md-5 education-img-div">
+
+          <img class="education-img" src="assets/imgs/ga.png">
+
+        </div>
+
+        <div class="col-md-7 education-description">
+
+          <div class="alma-mater">General Assembly, San Francisco</div>
+
+          <hr>
+
+          <div class="education-degree">Completion of Web Development Immersive</div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-5 education-img-div">
+
+          <img class="education-img" src="assets/imgs/ucdavis.png">
+
+        </div>
+
+        <div class="col-md-7 education-description">
+
+          <div class="alma-mater">University of California, Davis</div>
+
+          <hr>
+
+          <div class="education-degree">Bachelor of Arts, English</div>
+
+          <div class="education-degree">Minor in Music</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr>
+
+    <section id="contact">
+
+      <h2 class="title">
+        Contact
+      </h2>
+
+      <div class="text-center">
+
+        <a href="mailto:daryl.lazaro@gmail.com" target="_blank" class="btn btn-dark btn-lg contact-icon" role="button">
+          Send an Email
+        </a>
+
+        <a href="assets/files/Daryl_Lazaro_Resume.pdf" target="_blank" class="btn btn-dark btn-lg contact-icon" role="button">
+          View Résumé
+        </a>
+
+        <a href="https://www.linkedin.com/in/dalazaro" target="_blank" class="btn btn-dark btn-lg contact-icon" role="button">
+          LinkedIn
+        </a>
+
+        <a href="https://www.github.com/dalazaro" target="_blank" class="btn btn-dark btn-lg contact-icon" role="button">
+          GitHub
+        </a>
+
+      </div>
+
+    </section>
 
   </main>
 
-  <footer class="page-footer grey darken-4">
-    <div class="container center">
-      <h5 class="title grey-text text-lighten-3 flow-text"><b>Connect</b></h5>
-        <div class="row">
-          <a class="grey-text text-lighten-3" href="mailto:daryl.lazaro@gmail.com">Email</a> |
-          <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/dalazaro">LinkedIn</a> |
-          <a class="grey-text text-lighten-3" href="https://www.github.com/dalazaro">GitHub</a> |
-          <a class="grey-text text-lighten-3" href="assets/files/Daryl_Lazaro_Resume.pdf">Résumé</a>
-        </div>
+  <hr>
+
+  <footer>
+
+    <div class="footer-content">
+      Daryl Jason Lazaro © 2018
     </div>
-    <div class="footer-copyright">
-      <div class="container center">
-      Daryl Jason Lazaro © 2017
-      </div>
-    </div>
+
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  <!-- <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=59c1606d063bb0001109bc86&product=sticky-share-buttons' async='async'></script> -->
 
 </body>
 
