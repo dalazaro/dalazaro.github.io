@@ -2,16 +2,13 @@
   text-transform: uppercase;
 }
 
-.top-margin {
-  margin-top: 56px;
-}
-
 .title {
   text-align: center;
   width: 75%;
   display: block;
   margin: auto;
-  padding: 30px 0 10px 0;
+  padding: 20px 0;
+  font-weight: 700;
 }
 
 .quote {
@@ -106,9 +103,14 @@
   font-style: italic;
 }
 
-.contact {
+.contact-icon {
   width: 165px;
   margin: 10px;
+}
+
+#splash, #skills, #projects, #education, #contact {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .footer-content {
