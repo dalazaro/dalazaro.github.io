@@ -14,7 +14,8 @@ header {
 }
 
 .title {
-  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .quote {
@@ -100,7 +101,7 @@ header {
 
 .alma-mater {
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .education-degree {
