@@ -1,14 +1,20 @@
+body {
+  background-color: #343a40;
+}
+
+header {
+  position: relative;
+  background-image: linear-gradient(to top, rgba(52, 58, 64, 0.85), rgba(52, 58, 64, 0.85)), url('../imgs/guitar.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .navbar-brand {
   text-transform: uppercase;
 }
 
 .title {
   text-align: center;
-  width: 75%;
-  display: block;
-  margin: auto;
-  padding: 20px 0;
-  font-weight: 700;
 }
 
 .quote {
@@ -31,14 +37,12 @@
   display: block;
   margin: auto;
   padding: 20px;
-  text-align: justify;
 }
 
 .profile-img {
+  display: block;
   border-radius: 50%;
   height: 300px;
-  display: block;
-  margin: auto;
 }
 
 .skills-list {
@@ -47,12 +51,13 @@
 }
 
 .project {
-  padding: 10px;
+  padding: 1em;
 }
 
 .project-img {
   border-radius: 1%;
   border: 1px solid grey;
+  display: block;
 }
 
 .project-title {
@@ -104,16 +109,6 @@
 }
 
 .contact-icon {
-  width: 165px;
+  width: 150px;
   margin: 10px;
-}
-
-#splash, #skills, #projects, #education, #contact {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.footer-content {
-  margin: 50px auto;
-  text-align: center;
 }
