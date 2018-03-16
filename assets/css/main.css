@@ -20,17 +20,12 @@ header {
 
 .quote {
   font-style: italic;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.5em;
 }
 
 .quote-cited {
   font-style: italic;
-  font-size: 1.25em;
-}
-
-.skills-byline {
-  text-align: center;
   font-size: 1.25em;
 }
 
