@@ -69,6 +69,10 @@ header {
   margin: 1rem auto;
 }
 
+.padding {
+  padding: 1rem;
+}
+
 .education-img {
   display: block;
   width: 250px;
@@ -78,7 +82,7 @@ header {
 }
 
 .education-box {
-  padding: 1rem;
+  padding: 1rem 0;
   margin: auto;
 }
 
