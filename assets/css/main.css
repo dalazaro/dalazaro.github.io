@@ -9,18 +9,20 @@ header {
   background-position: center;
 }
 
-.navbar-brand {
-  text-transform: uppercase;
-}
-
 .title {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-.quote {
-  font-style: italic;
+.bold {
   font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.header-quote, .alma-mater {
   font-size: 1.5em;
 }
 
@@ -29,16 +31,15 @@ header {
   font-size: 1.25em;
 }
 
-.profile-div {
-  display: block;
-  margin: auto;
-  padding: 20px;
+.profile-box, .education-img-div {
+  padding-top: 2em;
 }
 
 .profile-img {
   display: block;
   border-radius: 50%;
   height: 300px;
+  width: auto;
 }
 
 .skills-list {
@@ -59,52 +60,25 @@ header {
 .project-title {
   text-align: center;
   font-size: 1.25em;
-  margin: 10px auto;
-  font-weight: 700;
 }
 
-.project-byline {
-  font-weight: 700;
+.project-text-margin {
   margin: 10px auto;
-}
-
-.project-stack {
-  font-style: italic;
-  margin: 10px auto;
-}
-
-.project-pitch {
-  margin: 10px auto;
-}
-
-.education-img-div {
-  padding: 20px;
 }
 
 .education-img {
-  height: 250px;
+  display: block;
   width: auto;
-  display: block;
+  height: 250px;
   margin: auto;
 }
 
-.education-description {
-  display: block;
+.education-text {
   margin: auto;
-  padding: 20px;
+  padding: 2em 2em 0 2em;
 }
 
-.alma-mater {
-  font-size: 1.5em;
-  font-weight: 600;
-}
-
-.education-degree {
-  font-size: 1em;
-  font-style: italic;
-}
-
-.contact-icon {
+.contact-btn {
   width: 150px;
   margin: 10px;
 }
