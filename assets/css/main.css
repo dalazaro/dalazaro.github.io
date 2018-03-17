@@ -86,6 +86,10 @@ header {
   margin: auto;
 }
 
+.contact-text {
+  padding: 1rem 0;
+}
+
 .contact-btn {
   width: 150px;
   margin: 10px;
