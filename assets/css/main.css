@@ -11,7 +11,7 @@ header {
 
 .title {
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
 }
 
 .bold {
@@ -23,59 +23,63 @@ header {
 }
 
 .header-quote, .alma-mater {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .quote-cited {
   font-style: italic;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
-.profile-box, .education-img-div {
-  padding-top: 2em;
+.profile-box {
+  margin: auto;
+  padding: 1rem;
 }
 
 .profile-img {
   display: block;
   border-radius: 50%;
-  height: 300px;
-  width: auto;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  filter: drop-shadow(-0.05rem 0.05rem 0.2rem #444444);
 }
 
 .skills-list {
   list-style-type: none;
-  padding: 20px 0;
+  padding: 1rem 0;
 }
 
 .project {
-  padding: 1em;
+  padding: 1rem;
 }
 
 .project-img {
-  border-radius: 1%;
-  border: 1px solid grey;
   display: block;
+  border-radius: 1%;
+  filter: drop-shadow(-0.05rem 0.05rem 0.25rem #888888);
 }
 
 .project-title {
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 .project-text-margin {
-  margin: 10px auto;
+  margin: 1rem auto;
 }
 
 .education-img {
   display: block;
-  width: auto;
-  height: 250px;
+  width: 250px;
+  height: auto;
   margin: auto;
+  filter: drop-shadow(-0.05rem 0.05rem 0.25rem #888888);
 }
 
-.education-text {
+.education-box {
+  padding: 1rem;
   margin: auto;
-  padding: 2em 2em 0 2em;
 }
 
 .contact-btn {
